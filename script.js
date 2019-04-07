@@ -73,8 +73,3 @@ $(".btn").click(function(b) {
     background: p
   }).addClass("animate")
 })
-
-
-document.querySelector("all-clear").addEventListener("click", function(){
-  alert(this.textContent)
-})
